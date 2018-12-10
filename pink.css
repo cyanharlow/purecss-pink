@@ -1,0 +1,1250 @@
+div, div:after, div:before {
+    position: absolute;
+    print-color-adjust: exact;
+    filter: opacity(1);
+    box-sizing: border-box;
+}
+
+html {
+    min-width: 765px;
+}
+
+body {
+    background-color: #0e0909;
+    background-image: linear-gradient(to bottom, #121f27, #040709);
+    padding: 2.25% 5px;
+}
+
+body .linksection {
+    font-size: 12px;
+    text-align: center;
+    position: static;
+    padding: 0 0 3%;
+    font-family: "Century Gothic", Arial, sans-serif;
+    color: #555555;
+}
+
+body .linksection .separator {
+    padding: 0 5px;
+}
+
+body .linksection a {
+    color: #888888;
+}
+
+body .paper {
+    position: relative;
+    margin: auto;
+    background-color: #2c2924;
+    overflow: hidden;
+    box-sizing: content-box;
+    width: 650px;
+}
+
+body .paper .container {
+    position: relative;
+    margin: auto;
+    width: 100%;
+    height: 800px;
+    background-color: #36021e;
+    background-image: linear-gradient(to right, #3c0226, #230105);
+}
+
+.head {
+    border-radius: 50% 50% 76% 24% / 40% 2% 98% 61%;
+    transform: rotate(17deg);
+    background-color: #122028;
+    background-image: linear-gradient(150deg, transparent 75%, #e90173 78%), linear-gradient(152deg, transparent 88%, #0b080e 91%);
+    box-shadow: inset 7px 33px 20px -4px #c10254, inset -5px -1px 12px -1px rgba(239, 2, 112, 0.55), inset -70px -2px 63px 2px rgba(6, 8, 14, 0.84), inset 6px -10px 11px -6px #c00059, inset 20px 2px 20px -3px #0c151e;
+    width: 37%;
+    height: 37%;
+    left: 29%;
+    top: 14%;
+}
+
+.nose {
+    width: 18%;
+    height: 20%;
+    transform: rotate(22deg);
+    background-image: linear-gradient(163deg, #10283b 19%, transparent 23%, transparent 58%, #314851 70%, #0a0c18 80%), linear-gradient(90deg, #152446 46%, transparent 80%);
+    box-shadow: inset 6px -5px 5px -3px #df005d, inset 0px 9px 12px -5px #151320, inset 4px -8px 6px 2px #151320, inset 17px -12px 11px -7px #1e434f;
+    border-radius: 0% 90% 80% 15% / 0% 9% 56% 15%;
+    top: 55%;
+    left: -4%;
+}
+
+.nostril {
+    content: "";
+    display: block;
+    width: 57%;
+    height: 33%;
+    right: 4%;
+    bottom: 14%;
+    border-radius: 50%;
+    background-color: #15222a;
+    transform: rotate(-28deg);
+    background-image: radial-gradient(ellipse closest-side at 26% 91%, #120101 106%, rgba(9, 18, 36, 0.23) 434%, transparent 500%), radial-gradient(ellipse closest-side at 61% 34%, #1f4b65, transparent 61%), linear-gradient(to right, #1d3c4f, #101b24);
+    box-shadow: 3px 3px 5px 1px rgba(2, 7, 14, 0.68), inset -4px -1px 5px -1px #0e141c;
+}
+
+.toplip {
+    border-radius: 20% 10% 90% 20% / 30% 0 98% 70%;
+    background-color: #230228;
+    background-image: linear-gradient(117deg, transparent, rgba(16, 0, 0, 0.92));
+    box-shadow: inset 5px 0px 2px -2px #a60054, inset -2px -4px 8px -1px #140101, 3px -10px 10px -2px #0e2631;
+    width: 15%;
+    height: 4%;
+    transform: rotate(25deg);
+    bottom: 18%;
+    left: 3%;
+}
+
+.lipcorner {
+    content: "";
+    display: block;
+    right: -10%;
+    top: 23%;
+    width: 19%;
+    transform: rotate(-34deg);
+    box-shadow: 0 0 8px 3px #0c0000;
+}
+
+.bottomlip {
+    border-radius: 20% 10% 47% 50% / 30% 0 98% 70%;
+    background-color: #271231;
+    background-image: linear-gradient(181deg, #160101, transparent 51%, rgba(9, 0, 0, 0.87) 90%);
+    box-shadow: inset 3px 1px 2px 1px #a60054, inset 5px 1px 11px 4px #0c010d, inset 3px -1px 2px 10px #170d1c, 16px 4px 7px -6px #1d405438, 13px 14px 12px -2px rgba(5, 1, 2, 0.51);
+    width: 11%;
+    height: 8%;
+    transform: rotate(7deg);
+    bottom: 11%;
+    left: 5%;
+}
+
+.chin {
+    bottom: 6%;
+    left: 20%;
+    width: 6%;
+    box-shadow: 0 0 12px 2px #00808045;
+    transform: rotate(-6deg);
+}
+
+.eyebrow {
+    left: 7%;
+    top: 37%;
+    width: 19%;
+    height: 14%;
+    filter: blur(1.5px);
+    transform: rotate(-29deg);
+    border-radius: 11% 72% 0 0 / 9% 78% 0 0;
+    border-top: 10px solid rgba(14, 0, 6, 0.65);
+}
+
+.eyebrowshine {
+    left: 15%;
+    top: 42%;
+    width: 8%;
+    transform: rotate(6deg);
+    box-shadow: 0 0 12px 2px rgba(27, 206, 252, 0.46);
+}
+
+.eye {
+    background-image: radial-gradient(ellipse at 42% 43%, rgba(4, 5, 9, 0.35) 23%, transparent 56%);
+    transform: rotate(-11deg);
+    width: 24%;
+    height: 30%;
+    left: 4%;
+    top: 36%;
+}
+
+.iris {
+    width: 51%;
+    height: 100%;
+    left: 0;
+    top: 12%;
+    border-radius: 0 40% 40% 0;
+    background-image: radial-gradient(circle at -25% 68%, #e8028c 24%, transparent 25%), radial-gradient(ellipse closest-side at 15% 32%, #160101 72%, #2a1403 97%, #0d141a 289%, transparent 450%);
+}
+
+.bottomlid {
+    top: 57%;
+    left: 29%;
+    width: 53%;
+    height: 25%;
+    transform: rotate(-6deg);
+    border-radius: 50% 50% 70% 30% / 9% 40% 63% 90%;
+    background-color: #523223;
+    background-image: radial-gradient(ellipse at 36% 14%, #050d14 22%, #0f1e22 74%);
+}
+
+.toplid {
+    top: 30%;
+    left: 26%;
+    width: 56%;
+    height: 22%;
+    transform: rotate(6deg);
+    border-radius: 27% 69% 50% 50% / 63% 90% 9% 8%;
+    background-color: #102c3b;
+    background-image: radial-gradient(ellipse at 67% 61%, #13232c, #081419 24%, #000406 64%);
+    box-shadow: -4px -6px 4px -1px rgba(0, 5, 7, 0.88), 7px -4px 27px 5px #000a0e, inset 2px -3px 3px -1px #010001, inset 6px -4px 9px -6px #ea1188;
+}
+
+.eyeball {
+    width: 49%;
+    height: 20%;
+    top: 41%;
+    left: 33%;
+    overflow: hidden;
+    background-color: #204b5f;
+    box-shadow: -5px 7px 1px -6px #37164c, 0px 3px 1px -2px #2b273c;
+    background-image: radial-gradient(circle at 15% center, transparent, #0c0408 80%);
+    border-radius: 0 0 90% 10% / 0 0 81% 87%;
+}
+
+.cheekshine {
+    transform: rotate(-48deg);
+    width: 24%;
+    box-shadow: 0 0 43px 17px #062d3b, 0 0 13px 2px rgba(71, 183, 249, 0.54);
+    left: 22%;
+    top: 55%;
+}
+
+.cheekbone {
+    transform: rotate(-32deg);
+    width: 31%;
+    box-shadow: 0 0 40px 37px rgba(3, 5, 7, 0.45);
+    left: 27%;
+    top: 59%;
+}
+
+.lash.top {
+    border-radius: 0 0 90% 0 / 0 0 90% 0;
+    border-right: 2px solid;
+    width: 12%;
+    height: 14%;
+}
+
+.lash.bottom {
+    border-radius: 90% 0 0 0 / 90% 0 0 0;
+    border-top: 2px solid;
+    width: 14%;
+    height: 18%;
+}
+
+.top.lash1 {
+    border-color: #0e0009;
+    transform: rotate(92deg);
+    top: 40%;
+    left: 15%;
+}
+
+.top.lash2 {
+    border-color: #140008;
+    transform: rotate(62deg);
+    top: 44%;
+    left: 17%;
+}
+
+.top.lash3 {
+    border-color: #14000d;
+    transform: rotate(31deg);
+    top: 45%;
+    left: 25%;
+}
+
+.top.lash4 {
+    border-color: #030002;
+    transform: rotate(43deg);
+    top: 44%;
+    left: 34%;
+}
+
+.top.lash5 {
+    border-color: #000000;
+    transform: rotate(51deg);
+    top: 45%;
+    left: 49%;
+}
+
+.bottom.lash1 {
+    border-color: #0e0009;
+    transform: rotate(6deg);
+    top: 62%;
+    left: 21%;
+}
+
+.bottom.lash2 {
+    border-color: #010001;
+    transform: rotate(6deg);
+    top: 65%;
+    left: 26%;
+}
+
+.bottom.lash3 {
+    border-color: #050004;
+    transform: rotate(2deg);
+    top: 57%;
+    left: 38%;
+}
+
+.bottom.lash4 {
+    border-color: #0c0108;
+    transform: rotate(1deg);
+    top: 62%;
+    left: 40%;
+}
+
+.bottom.lash5 {
+    border-color: #000000;
+    transform: rotate(-11deg);
+    top: 62%;
+    left: 48%;
+}
+
+.ear {
+    border-radius: 40% 60% 80% 20% / 30% 50% 50% 9%;
+    background-image: radial-gradient(ellipse at 15% 62%, #13222c, #0d171e 9%, #030b0f 24%, #0a141a, #130810 60%, #47143c);
+    width: 9%;
+    height: 16%;
+    left: 50%;
+    top: 44%;
+    transform: rotate(10deg);
+    box-shadow: 9px 4px 7px 0px rgba(8, 0, 9, 0.36);
+}
+
+.ear .inner {
+    width: 100%;
+    height: 100%;
+    border-radius: inherit;
+    box-shadow: inset -3px 1px 10px -4px #79063e, inset -2px -5px 4px -2px #060b10, inset -3px -10px 4px -2px #07151b, inset -2px -14px 4px -2px #120a16, inset -2px -19px 3px -2px #0b1a23, inset -1px 5px 2px 3px #0a1922, inset -7px 11px 7px 0px #060c10;
+}
+
+.shirt {
+    width: 118%;
+    height: 37%;
+    bottom: 13%;
+    left: -25%;
+    transform-origin: 0 100%;
+    transform: rotate(6deg);
+}
+
+.bodice {
+    width: 100%;
+    height: 64%;
+    overflow: hidden;
+    border-radius: 30% 70% 2% 24% / 17% 9% 86% 69%;
+    background-color: #366077;
+    background-image: linear-gradient(49deg, #0c191c 15%, transparent 37%), linear-gradient(-77deg, #050c0c 6%, transparent 23%);
+    box-shadow: inset 31px 5px 27px -18px #e80465, inset 0 4px 4px -3px #fcfcfc42, 0px 19px 4px -17px rgba(2, 23, 29, 0.22), inset 0px -10px 14px -1px rgba(2, 23, 29, 0.13), inset -21px 0px 30px -13px #fa036e;
+}
+
+.bodice:after {
+    content: "";
+    width: 100%;
+    height: 92%;
+    border-radius: inherit;
+    left: 0;
+    bottom: 0;
+    border-top: 1px dashed #151e3d;
+    box-shadow: 0 -33px 6px -29px rgba(26, 111, 127, 0.16), inset 0 4px 5px -5px rgba(9, 64, 70, 0.34);
+}
+
+.wrinkle1 {
+    border-radius: 90% 0;
+    box-shadow: -16px 0px 8px -4px rgba(134, 227, 244, 0.22), inset 8px 0px 15px 0px rgba(0, 6, 9, 0.19);
+    width: 20%;
+    height: 10%;
+    left: 7%;
+    bottom: 18%;
+    transform: rotate(68deg);
+}
+
+.wrinkle2 {
+    border-radius: 90% 0;
+    box-shadow: -16px 0px 8px -4px rgba(134, 227, 244, 0.22), inset 8px 0px 15px 0px rgba(1, 8, 11, 0.27);
+    width: 13%;
+    height: 10%;
+    left: 19%;
+    bottom: 10%;
+    transform: rotate(88deg);
+}
+
+.wrinkle3 {
+    border-radius: 90% 0;
+    box-shadow: -7px 0px 7px 2px rgba(253, 229, 238, 0.05), inset 14px -8px 2px -6px rgba(8, 26, 33, 0.13);
+    width: 13%;
+    height: 10%;
+    right: 6%;
+    bottom: 11%;
+    transform: rotate(103deg);
+}
+
+.wrinkle4 {
+    border-radius: 90% 0;
+    box-shadow: 10px -3px 7px 3px rgba(134, 227, 244, 0.11), inset -21px 7px 15px -8px rgba(0, 9, 13, 0.27);
+    width: 53%;
+    height: 10%;
+    left: 6%;
+    top: 23%;
+    transform: rotate(4deg);
+}
+
+.waist {
+    width: 79%;
+    height: 64%;
+    left: 19%;
+    top: 60%;
+    border-radius: 0 0 20% 4% / 0 0% 100% 99%;
+    background-color: #3b6882;
+    background-image: linear-gradient(76deg, #050a0c 7%, transparent 33%), linear-gradient(-77deg, #050c0c 6%, transparent 39%);
+    box-shadow: inset 11px 0px 10px -6px #e40565, inset -21px 0px 18px -13px #f40b70;
+}
+
+.body {
+    width: 34%;
+    height: 55%;
+    left: 36%;
+    top: 52%;
+    transform-origin: 50% 0;
+    transform: rotate(-4deg);
+}
+
+.shoulders {
+    width: 100%;
+    height: 100%;
+    border-radius: 57% 43% 25% 16% / 93% 34% 66% 7%;
+    box-shadow: inset -11px 4px 18px -5px #b50350;
+    background-color: #122028;
+    background-image: linear-gradient(to right, #7d0045 1%, #4f0625 4%, #09181e 9%, #0d161c, #0d151d 82%, #28011c 119%);
+}
+
+.milk-bladder {
+    width: 58%;
+    height: 64%;
+    background-color: #122028;
+    background-image: radial-gradient(circle at 32% 75%, #112733, transparent 29%), linear-gradient(to right, #09181e 23%, #0d171e);
+    box-shadow: inset 17px 11px 22px -2px #c80256, inset 11px -26px 38px 2px #060b0f, 37px 16px 16px -5px rgba(4, 7, 9, 0.63);
+    left: -2%;
+    top: 11%;
+    transform: rotate(29deg);
+    border-radius: 0% 96% 35% 65% / 70% 70% 30% 24%;
+}
+
+.boob-hat {
+    border-radius: 70% 30% 30% 70% / 50% 50% 40% 50%;
+    background: #081319;
+    bottom: 15%;
+    left: 4%;
+    width: 13%;
+    height: 6%;
+    transform: rotate(-21deg);
+    box-shadow: inset 8px 4px 6px -4px #b6014e, 6px 3px 3px -2px rgba(3, 5, 7, 0.19);
+}
+
+.leftarmshadow {
+    height: 29%;
+    top: 73%;
+    left: 47%;
+    transform: rotate(-3deg);
+    box-shadow: 0 0 13px 14px rgba(16, 6, 19, 0.66);
+}
+
+.rightarmshadow {
+    height: 29%;
+    width: 3.5%;
+    border-radius: 75% 25% 0 0 / 44% 1% 0 0;
+    border-left: 12px solid #0a050d;
+    border-top: 1px solid #030305;
+    top: 76%;
+    left: 62%;
+    transform: rotate(8deg);
+    background: rgba(16, 6, 19, 0.72);
+    box-shadow: 0 0 13px 6px rgba(16, 6, 19, 0.72);
+}
+
+.arm {
+    width: 20%;
+    height: 49%;
+    background-color: #122028;
+    background-image: linear-gradient(93deg, rgba(246, 3, 98, 0.37) 6%, transparent 14%), radial-gradient(ellipse closest-side at 47% 27%, rgba(0, 162, 241, 0.08) 40%, transparent 84%, transparent), linear-gradient(100deg, #081115 24%, #0b2230 50%, #0f141d 70%, #10131d 75%, #b50350 88%);
+    box-shadow: -6px -18px 17px -15px #c9065a, inset 16px 37px 25px -27px #d6015b;
+    left: 45%;
+    top: 57%;
+    transform-origin: 50% 0;
+    transform: rotate(-2deg);
+    border-radius: 50% 50% 44% 16% / 20% 11% 80% 55%;
+}
+
+.neckarc {
+    width: 15%;
+    height: 13%;
+    top: 3.5%;
+    left: 16.5%;
+    transform: rotate(8deg);
+    border-radius: 50%;
+    border-right: 13px solid #b50350;
+}
+
+.spinearc {
+    width: 17%;
+    height: 19%;
+    top: -10%;
+    left: 69%;
+    border-radius: 50%;
+    border-left: 13px solid #b50350;
+    transform: rotate(-26deg);
+}
+
+.neck {
+    left: 43.2%;
+    top: 43%;
+    width: 17%;
+    height: 15%;
+    box-shadow: inset 8px -3px 3px -8px #b3034f;
+    background-color: #122028;
+    background-image: linear-gradient(70deg, #c80256, transparent 17%), linear-gradient(to right, #700231 0%, #071317 26%, #0f1a22, #0c131b 88%, #ca0257 108%);
+    transform: rotate(-22deg);
+    border-radius: 98% 0 70% 0% / 19% 0 1% 58%;
+}
+
+.jawline {
+    top: 8%;
+    width: 78%;
+    left: 20%;
+    transform: rotate(3deg);
+    box-shadow: -40px -29px 30px 4px rgba(5, 72, 94, 0.4), -42px 2px 26px 2px rgba(220, 5, 104, 0.65), 2px 3px 30px 22px #080d13;
+}
+
+.backjaw {
+    top: -24%;
+    height: 30%;
+    left: 77%;
+    transform: rotate(44deg);
+    box-shadow: -18px 4px 16px 6px rgba(68, 0, 42, 0.37), 2px 20px 14px 13px #0c131c;
+}
+
+.forehead {
+    box-shadow: -27px 0 31px 2px #09a2fc;
+    top: 19%;
+    height: 22%;
+    left: 34%;
+    transform: rotate(13deg);
+}
+
+.hair {
+    width: 65%;
+    height: 60%;
+    top: 2.5%;
+    left: 17%;
+    transform: rotate(3deg);
+}
+
+.base {
+    filter: blur(8px);
+    left: 48%;
+    top: -6%;
+    background-image: radial-gradient(ellipse at -12% 53%, #0d090d, #08060a 62%, rgba(255, 4, 108, 0) 78%);
+    width: 56%;
+    height: 92%;
+    border-radius: 0 90% 80% 16% / 0 57% 34% 9%;
+    transform: rotate(-32deg);
+}
+
+.tendril {
+    width: 5%;
+    height: 100%;
+    filter: blur(1px);
+    transform-origin: 50% 0;
+}
+
+.tendril:before, .tendril:after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+}
+
+.front .tendril:before {
+    background-image: radial-gradient(ellipse farthest-corner at -28% 50%, transparent 49%, rgba(8, 14, 20, 0.91) 55%, rgba(15, 10, 10, 0.56), rgba(21, 1, 7, 0.76) 76%, transparent 85%, transparent);
+    background-size: 100% 8%;
+    background-position: 0 22%;
+}
+
+.front .tendril:after {
+    background-image: radial-gradient(ellipse farthest-corner at 128% 50%, transparent 57%, rgba(1, 18, 22, 0.74), #714160ab, rgba(27, 2, 2, 0.26) 60%, rgba(12, 5, 7, 0.62) 66%, transparent 71%, transparent);
+    background-size: 100% 8%;
+}
+
+.back .tendril:before {
+    background-image: radial-gradient(ellipse farthest-corner at -28% 50%, transparent 53%, #d7035e 67%, transparent 71%, transparent);
+    background-size: 100% 8%;
+    background-position: 0 22%;
+}
+
+.back .tendril:after {
+    background-image: radial-gradient(ellipse farthest-corner at 128% 50%, transparent 59%, #ce025b, transparent 71%, transparent);
+    background-size: 100% 8%;
+}
+
+.highlights .tendril:before {
+    background-image: radial-gradient(ellipse farthest-corner at -28% 50%, transparent 53%, rgba(97, 200, 249, 0.05) 67%, transparent 71%, transparent);
+    background-size: 100% 8%;
+    background-position: 0 22%;
+}
+
+.highlights .tendril:after {
+    background-image: radial-gradient(ellipse farthest-corner at 128% 50%, transparent 59%, rgba(97, 200, 249, 0.05), transparent 71%, transparent);
+    background-size: 100% 8%;
+}
+
+.tendril1 {
+    left: 34%;
+    height: 42%;
+    top: 8%;
+    width: 4%;
+    opacity: 0.6;
+    transform: rotate(-7deg) scaleX(-1);
+}
+
+.tendril2 {
+    left: 40%;
+    top: 19%;
+    height: 58%;
+    transform: rotate(-10deg);
+}
+
+.tendril3 {
+    left: 41%;
+    height: 71%;
+    top: 19%;
+    width: 6%;
+    transform: rotate(-25deg);
+}
+
+.tendril4 {
+    left: 62%;
+    top: 45%;
+    width: 6%;
+    height: 49%;
+    transform: rotate(-42deg);
+}
+
+.tendril5 {
+    left: 70%;
+    height: 52%;
+    width: 7%;
+    top: 36%;
+    transform: rotate(-18deg) scaleX(-1);
+}
+
+.tendril6 {
+    left: 69%;
+    height: 61%;
+    top: 26%;
+    transform: rotate(-25deg);
+}
+
+.tendril7 {
+    left: 42%;
+    height: 73%;
+    top: 25%;
+    transform: rotate(-58deg);
+}
+
+.tendril8 {
+    left: 45%;
+    height: 61%;
+    top: 39%;
+    width: 7%;
+    transform: rotate(-80deg);
+}
+
+.tendril9 {
+    left: 42%;
+    height: 61%;
+    top: 34%;
+    opacity: 0.7;
+    transform: rotate(-92deg) scaleX(-1);
+}
+
+.tendril10 {
+    left: 29%;
+    height: 41%;
+    top: 22%;
+    transform: rotate(-92deg);
+}
+
+.tendril11 {
+    left: 34%;
+    height: 67%;
+    top: 30%;
+    width: 3%;
+    transform: rotate(-90deg);
+}
+
+.tendril12 {
+    left: 41%;
+    height: 53%;
+    top: 20%;
+    width: 3%;
+    transform: rotate(-4deg);
+}
+
+.tendril13 {
+    left: 24%;
+    height: 68%;
+    top: 22%;
+    width: 3%;
+    transform: rotate(-85deg);
+    opacity: 0.6;
+}
+
+.tendril14 {
+    left: 60%;
+    height: 39%;
+    top: 12%;
+    width: 3%;
+    transform: rotate(71deg);
+}
+
+.tendril15 {
+    left: 74%;
+    height: 39%;
+    top: 14%;
+    width: 3%;
+    transform: rotate(79deg);
+    opacity: 0.5;
+}
+
+.tendril16 {
+    left: 83%;
+    height: 55%;
+    top: 8%;
+    width: 3%;
+    transform: rotate(68deg) scaleX(-1);
+}
+
+.tendril17 {
+    left: 79%;
+    height: 46%;
+    top: 12%;
+    width: 5%;
+    transform: rotate(68deg);
+}
+
+.tendril18 {
+    left: 58%;
+    height: 48%;
+    top: 32%;
+    width: 5%;
+    transform: rotate(-75deg);
+}
+
+.tendril19 {
+    left: 59%;
+    height: 36%;
+    top: 27%;
+    width: 5%;
+    transform: rotate(-91deg);
+}
+
+.tendril20 {
+    left: 57%;
+    height: 49%;
+    top: 34%;
+    width: 5%;
+    transform: rotate(-3deg);
+}
+
+.tendril21 {
+    left: 61%;
+    height: 47%;
+    top: 41%;
+    transform: rotate(-8deg) scaleX(-1);
+}
+
+.tendril22 {
+    left: 19%;
+    height: 32%;
+    top: 16%;
+    width: 3%;
+    transform: rotate(-74deg);
+    opacity: 0.6;
+}
+
+.tendril23 {
+    left: 70%;
+    height: 37%;
+    top: 59%;
+    width: 5%;
+    transform: rotate(-20deg);
+}
+
+.tendril24 {
+    left: 79%;
+    height: 40%;
+    top: 37%;
+    width: 5%;
+    transform: rotate(-26deg);
+}
+
+.tendril25 {
+    left: 27%;
+    height: 42%;
+    top: 9%;
+    width: 4%;
+    opacity: 0.8;
+    transform: rotate(-34deg);
+}
+
+.tendril26 {
+    left: 47%;
+    height: 39%;
+    top: 28%;
+    width: 4%;
+    opacity: 0.8;
+    transform: rotate(-103deg);
+}
+
+.tendril27 {
+    left: 28%;
+    top: 25%;
+    height: 41%;
+    width: 5%;
+    opacity: 0.7;
+    transform: rotate(-115deg);
+}
+
+.tendril28 {
+    left: 33%;
+    top: 19%;
+    height: 44%;
+    width: 5%;
+    opacity: 0.8;
+    transform: rotate(-103deg) scaleX(-1);
+}
+
+.tendril29 {
+    left: 33%;
+    top: 19%;
+    height: 24%;
+    width: 5%;
+    opacity: 0.8;
+    transform: rotate(-123deg) scaleX(-1);
+}
+
+.tendril30 {
+    left: 33%;
+    top: 23%;
+    height: 24%;
+    width: 5%;
+    opacity: 0.8;
+    transform: rotate(-143deg) scaleX(-1);
+}
+
+.tendril31 {
+    left: 56%;
+    top: 30%;
+    height: 35%;
+    transform: rotate(-105deg);
+}
+
+.tendril32 {
+    left: 66%;
+    top: 31%;
+    height: 35%;
+    transform: rotate(-75deg);
+}
+
+.tendril33 {
+    left: 71%;
+    top: 38%;
+    height: 30%;
+    transform: rotate(-73deg);
+}
+
+.tendril34 {
+    left: 66%;
+    top: 38%;
+    height: 40%;
+    transform: rotate(-65deg);
+}
+
+.tendril35 {
+    left: 66%;
+    top: 43%;
+    height: 40%;
+    transform: rotate(-60deg);
+}
+
+.tendril36 {
+    left: 66%;
+    top: 45%;
+    height: 35%;
+    transform: rotate(-50deg);
+}
+
+.tendril37 {
+    left: 66%;
+    top: 54%;
+    height: 35%;
+    transform: rotate(-40deg);
+}
+
+.tendril37 {
+    left: 66%;
+    top: 54%;
+    height: 35%;
+    transform: rotate(-40deg);
+}
+
+.tendril38 {
+    left: 66%;
+    top: 54%;
+    height: 35%;
+    transform: rotate(-30deg);
+}
+
+.tendril39 {
+    left: 66%;
+    top: 54%;
+    height: 35%;
+    transform: rotate(-20deg);
+}
+
+.tendril40 {
+    left: 60%;
+    top: 47%;
+    height: 38%;
+    opacity: 0.5;
+    width: 8%;
+    transform: rotate(4deg);
+}
+
+.tendril41 {
+    left: 82%;
+    top: 47%;
+    height: 30%;
+    transform: rotate(-67deg);
+}
+
+.tendril42 {
+    left: 72%;
+    top: 54%;
+    height: 30%;
+    transform: rotate(-44deg);
+}
+
+.tendril43 {
+    left: 67%;
+    top: 25%;
+    height: 30%;
+    transform: rotate(-66deg);
+}
+
+.tendril44 {
+    left: 65%;
+    top: 52%;
+    height: 35%;
+    transform: rotate(-8deg);
+}
+
+.tendril45 {
+    left: 49%;
+    top: 36%;
+    height: 59%;
+    transform: rotate(-62deg);
+}
+
+.tendril46 {
+    left: 75%;
+    top: 52%;
+    height: 35%;
+    transform: rotate(-58deg);
+}
+
+.tendril47 {
+    left: 75%;
+    top: 52%;
+    height: 35%;
+    transform: rotate(-8deg);
+}
+
+.tendril48 {
+    left: 45%;
+    top: 44%;
+    height: 47%;
+    transform: rotate(-108deg);
+}
+
+.tendril49 {
+    left: 73%;
+    top: 62%;
+    height: 20%;
+    transform: rotate(8deg);
+}
+
+.tendril50 {
+    left: 65%;
+    top: 62%;
+    height: 27%;
+    transform: rotate(8deg);
+}
+
+/* back */
+.tendrila {
+    left: 23%;
+    top: 22%;
+    height: 37%;
+    width: 3%;
+    transform: rotate(-82deg);
+}
+
+.tendrilb {
+    left: 17%;
+    top: 18%;
+    height: 40%;
+    width: 3%;
+    transform: rotate(-86deg);
+}
+
+.tendrilc {
+    left: 19%;
+    top: 13%;
+    height: 40%;
+    width: 3%;
+    opacity: 0.6;
+    transform: rotate(-55deg);
+}
+
+.tendrild {
+    left: 25%;
+    top: 9%;
+    height: 40%;
+    width: 5%;
+    opacity: 0.6;
+    transform: rotate(-39deg);
+}
+
+.tendrile {
+    left: 33%;
+    top: 6%;
+    height: 40%;
+    width: 5%;
+    transform: rotate(-6deg);
+}
+
+.tendrilf {
+    left: 46%;
+    top: 3%;
+    height: 40%;
+    width: 3%;
+    opacity: 0.5;
+    transform: rotate(29deg) scaleX(-1);
+}
+
+.tendrilg {
+    left: 64%;
+    top: 7%;
+    height: 46%;
+    width: 3%;
+    opacity: 0.6;
+    transform: rotate(61deg);
+}
+
+.tendrilh {
+    left: 80%;
+    top: 10%;
+    height: 60%;
+    transform: rotate(77deg) scaleX(-1);
+}
+
+.tendrili {
+    left: 93%;
+    top: 18%;
+    height: 60%;
+    opacity: 0.6;
+    transform: rotate(88deg);
+}
+
+.tendrilj {
+    left: 100%;
+    top: 26%;
+    height: 60%;
+    width: 6%;
+    transform: rotate(94deg) scaleX(-1);
+}
+
+.tendrilk {
+    left: 104%;
+    top: 30%;
+    height: 45%;
+    width: 3%;
+    transform: rotate(98deg) scaleX(-1);
+}
+
+.tendrill {
+    left: 108%;
+    top: 35%;
+    height: 39%;
+    opacity: 0.6;
+    transform: rotate(89deg);
+}
+
+.tendrilm {
+    left: 109%;
+    top: 42%;
+    height: 25%;
+    width: 4%;
+    transform: rotate(95deg) scaleX(-1);
+}
+
+.tendriln {
+    left: 112%;
+    top: 49%;
+    height: 39%;
+    opacity: 0.5;
+    transform: rotate(102deg);
+}
+
+.tendrilo {
+    left: 110%;
+    top: 54%;
+    height: 39%;
+    transform: rotate(111deg);
+}
+
+.tendrilp {
+    left: 111%;
+    top: 60%;
+    height: 85%;
+    transform: rotate(115deg) scaleX(-1);
+}
+
+.tendrilq {
+    left: 111%;
+    top: 64%;
+    height: 39%;
+    width: 3%;
+    transform: rotate(115deg);
+}
+
+.tendrilr {
+    left: 108%;
+    top: 70%;
+    height: 39%;
+    transform: rotate(119deg);
+}
+
+.tendrils {
+    left: 104%;
+    top: 74%;
+    height: 39%;
+    width: 4%;
+    opacity: 0.5;
+    transform: rotate(119deg) scaleX(-1);
+}
+
+.tendrilt {
+    left: 104%;
+    top: 80%;
+    height: 39%;
+    width: 3%;
+    transform: rotate(129deg);
+}
+
+.tendrilu {
+    left: 98%;
+    top: 84%;
+    height: 39%;
+    opacity: 0.4;
+    transform: rotate(134deg);
+}
+
+.tendrilv {
+    left: 95%;
+    top: 86%;
+    height: 39%;
+    width: 4%;
+    transform: rotate(144deg);
+}
+
+.tendrilw {
+    left: 90%;
+    top: 90%;
+    width: 3%;
+    height: 96%;
+    transform: rotate(147deg);
+}
+
+.tendrilx {
+    left: 85%;
+    top: 95%;
+    height: 42%;
+    opacity: 0.6;
+    transform: rotate(159deg) scaleX(-1);
+}
+
+.tendrily {
+    left: 78%;
+    top: 92%;
+    height: 39%;
+    transform: rotate(165deg);
+}
+
+.tendrilz {
+    left: 49%;
+    top: 37%;
+    height: 60%;
+    width: 5%;
+    opacity: 0.6;
+    transform: rotate(9deg);
+}
+
+/* highlights */
+.tendril01 {
+    left: 56%;
+    top: 44%;
+    height: 38%;
+    transform: rotate(-77deg);
+}
+
+.tendril02 {
+    left: 35%;
+    top: 22%;
+    width: 4%;
+    height: 26%;
+    opacity: 0.7;
+    transform: rotate(-115deg);
+}
+
+.tendril03 {
+    left: 41%;
+    top: 37%;
+    width: 5%;
+    height: 29%;
+    transform: rotate(-103deg);
+}
+
+.tendril04 {
+    left: 43%;
+    top: 41%;
+    height: 28%;
+    transform: rotate(-94deg);
+}
+
+.tendril05 {
+    left: 59%;
+    top: 45%;
+    height: 35%;
+    opacity: 0.5;
+    transform: rotate(-27deg);
+}
+
+.tendril06 {
+    left: 65%;
+    top: 52%;
+    height: 35%;
+    transform: rotate(-52deg);
+}
