@@ -320,6 +320,7 @@ body .paper .container {
 }
 
 .shirt {
+    display: none;
     width: 118%;
     height: 37%;
     bottom: 13%;
