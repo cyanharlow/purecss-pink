@@ -544,7 +544,7 @@ body .paper .container {
     filter: blur(8px);
     left: 48%;
     top: -6%;
-    background-image: radial-gradient(ellipse at -12% 53%, #0d090d, #08060a 62%, rgba(255, 4, 108, 0) 78%);
+    background-image: radial-gradient(ellipse at -12% 53%, #0d090d, #08060a 62%, rgba(0, 0, 0, 0) 78%);
     width: 56%;
     height: 92%;
     border-radius: 0 90% 80% 16% / 0 57% 34% 9%;
