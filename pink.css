@@ -54,8 +54,8 @@ body .paper .container {
     border-radius: 50% 50% 76% 24% / 40% 2% 98% 61%;
     transform: rotate(17deg);
     background-color: #122028;
-    background-image: linear-gradient(150deg, transparent 75%, #e90173 78%), linear-gradient(152deg, transparent 88%, #0b080e 91%);
-    box-shadow: inset 7px 33px 20px -4px #c10254, inset -5px -1px 12px -1px rgba(239, 2, 112, 0.55), inset -70px -2px 63px 2px rgba(6, 8, 14, 0.84), inset 6px -10px 11px -6px #c00059, inset 20px 2px 20px -3px #0c151e;
+    background-image: linear-gradient(150deg, #e9017303 75%, #e90173 78%), linear-gradient(152deg, transparent 88%, #000000 91%);
+    box-shadow: inset 7px 33px 14px -4px #c10254, inset -5px -1px 12px -1px rgba(239, 2, 112, 0.55), inset -70px -2px 63px 2px rgba(6, 8, 14, 0.96), inset 9px -9px 9px -6px #c00059, inset 20px 2px 20px -3px #0c151e;
     width: 37%;
     height: 37%;
     left: 29%;
@@ -66,11 +66,11 @@ body .paper .container {
     width: 18%;
     height: 20%;
     transform: rotate(22deg);
-    background-image: linear-gradient(163deg, #10283b 19%, transparent 23%, transparent 58%, #314851 70%, #0a0c18 80%), linear-gradient(90deg, #152446 46%, transparent 80%);
-    box-shadow: inset 6px -5px 5px -3px #df005d, inset 0px 9px 12px -5px #151320, inset 4px -8px 6px 2px #151320, inset 17px -12px 11px -7px #1e434f;
+    background-image: linear-gradient(163deg, #10283b 19%, #10283b00 23%, #31485100 58%, #314851 70%, #0a0c18 80%), linear-gradient(90deg, #152446 46%, #15244600 80%);
+    box-shadow: inset 6px -5px 5px -3px #df005d, inset 0px 9px 12px -5px #151320, inset 4px -8px 5px 2px #0c0b15, inset 17px -12px 11px -7px #244c59;
     border-radius: 0% 90% 80% 15% / 0% 9% 56% 15%;
     top: 55%;
-    left: -4%;
+    left: -3.5%;
 }
 
 .nostril {
@@ -83,7 +83,7 @@ body .paper .container {
     border-radius: 50%;
     background-color: #15222a;
     transform: rotate(-28deg);
-    background-image: radial-gradient(ellipse closest-side at 26% 91%, #120101 106%, rgba(9, 18, 36, 0.23) 434%, transparent 500%), radial-gradient(ellipse closest-side at 61% 34%, #1f4b65, transparent 61%), linear-gradient(to right, #1d3c4f, #101b24);
+    background-image: radial-gradient(ellipse closest-side at 26% 91%, #120101 106%, rgba(9, 18, 36, 0.23) 434%, #a9999900 500%), radial-gradient(ellipse closest-side at 61% 34%, #1f4b65, #1f4b6500 61%), linear-gradient(to right, #1d3c4f, #101b24);
     box-shadow: 3px 3px 5px 1px rgba(2, 7, 14, 0.68), inset -4px -1px 5px -1px #0e141c;
 }
 
@@ -91,7 +91,7 @@ body .paper .container {
     border-radius: 20% 10% 90% 20% / 30% 0 98% 70%;
     background-color: #230228;
     background-image: linear-gradient(117deg, transparent, rgba(16, 0, 0, 0.92));
-    box-shadow: inset 5px 0px 2px -2px #a60054, inset -2px -4px 8px -1px #140101, 3px -10px 10px -2px #0e2631;
+    box-shadow: inset 5px 0px 2px -2px #a60054, inset -2px -4px 8px -1px #140101, 3px -8px 8px -2px #0c2734;
     width: 15%;
     height: 4%;
     transform: rotate(25deg);
@@ -113,7 +113,7 @@ body .paper .container {
     border-radius: 20% 10% 47% 50% / 30% 0 98% 70%;
     background-color: #271231;
     background-image: linear-gradient(181deg, #160101, transparent 51%, rgba(9, 0, 0, 0.87) 90%);
-    box-shadow: inset 3px 1px 2px 1px #a60054, inset 5px 1px 11px 4px #0c010d, inset 3px -1px 2px 10px #170d1c, 16px 4px 7px -6px #1d405438, 13px 14px 12px -2px rgba(5, 1, 2, 0.51);
+    box-shadow: inset 3px 1px 2px 1px #a60054, inset 5px 1px 11px 4px #0c010d, inset 3px -1px 2px 10px #170d1c, 16px 4px 7px -6px rgba(37, 81, 107, 0.2196078431372549), 13px 14px 12px -2px rgba(1, 2, 5, 0.56);
     width: 11%;
     height: 8%;
     transform: rotate(7deg);
@@ -125,7 +125,7 @@ body .paper .container {
     bottom: 6%;
     left: 20%;
     width: 6%;
-    box-shadow: 0 0 12px 2px #00808045;
+    box-shadow: 0 0 12px 2px rgba(3, 200, 200, 0.27058823529411763);
     transform: rotate(-6deg);
 }
 
@@ -149,7 +149,7 @@ body .paper .container {
 }
 
 .eye {
-    background-image: radial-gradient(ellipse at 42% 43%, rgba(4, 5, 9, 0.35) 23%, transparent 56%);
+    background-image: radial-gradient(ellipse at 42% 43%, rgba(4, 5, 9, 0.5) 23%, transparent 56%);
     transform: rotate(-11deg);
     width: 24%;
     height: 30%;
@@ -186,7 +186,7 @@ body .paper .container {
     border-radius: 27% 69% 50% 50% / 63% 90% 9% 8%;
     background-color: #102c3b;
     background-image: radial-gradient(ellipse at 67% 61%, #13232c, #081419 24%, #000406 64%);
-    box-shadow: -4px -6px 4px -1px rgba(0, 5, 7, 0.88), 7px -4px 27px 5px #000a0e, inset 2px -3px 3px -1px #010001, inset 6px -4px 9px -6px #ea1188;
+    box-shadow: -4px -6px 4px -1px rgb(0, 5, 7), 7px -4px 27px 5px #000000, inset 2px -3px 3px -1px #010001, inset 6px -4px 9px -6px #ea1188;
 }
 
 .eyeball {
@@ -204,7 +204,7 @@ body .paper .container {
 .cheekshine {
     transform: rotate(-48deg);
     width: 24%;
-    box-shadow: 0 0 43px 17px #062d3b, 0 0 13px 2px rgba(71, 183, 249, 0.54);
+    box-shadow: 0 0 43px 17px #083241, 0 0 13px 2px rgba(71, 183, 249, 0.54);
     left: 22%;
     top: 55%;
 }
@@ -212,7 +212,7 @@ body .paper .container {
 .cheekbone {
     transform: rotate(-32deg);
     width: 31%;
-    box-shadow: 0 0 40px 37px rgba(3, 5, 7, 0.45);
+    box-shadow: 0 0 40px 37px rgba(3, 6, 10, 0.72);
     left: 27%;
     top: 59%;
 }
@@ -478,7 +478,7 @@ body .paper .container {
 
 .neckarc {
     width: 15%;
-    height: 13%;
+    height: 14%;
     top: 3.5%;
     left: 16.5%;
     transform: rotate(8deg);
@@ -511,9 +511,9 @@ body .paper .container {
 .jawline {
     top: 8%;
     width: 78%;
-    left: 20%;
+    left: 17%;
     transform: rotate(3deg);
-    box-shadow: -40px -29px 30px 4px rgba(5, 72, 94, 0.4), -42px 2px 26px 2px rgba(220, 5, 104, 0.65), 2px 3px 30px 22px #080d13;
+    box-shadow: -40px -30px 25px 4px rgba(5, 72, 94, 0.72), -42px 2px 26px 2px rgba(220, 5, 104, 0.87), 2px 2px 30px 21px #080d13;
 }
 
 .backjaw {
@@ -525,7 +525,7 @@ body .paper .container {
 }
 
 .forehead {
-    box-shadow: -27px 0 31px 2px #09a2fc;
+    box-shadow: -27px 0 22px 3px #09a2fc;
     top: 19%;
     height: 22%;
     left: 34%;
